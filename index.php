@@ -3,7 +3,7 @@ require('database.php');
 
 //selects the required parameters;
 //uses and inner join by the address table;
-//On the cutomerID field by the two tables;
+//On the customerID field by the two tables;
 //Then groups them by all of the selected fields;
 
 $query = '
