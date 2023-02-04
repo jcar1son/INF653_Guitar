@@ -1,10 +1,11 @@
 <?php
 require('database.php');
 
-//selects the required parameters;
-//uses and inner join by the address table;
-//On the customerID field by the two tables;
-//Then groups them by all of the selected fields;
+//selects the required parameters
+//uses and inner join by the address table
+//On the cutomerID field by the two tables
+//Then groups them by all of the selected fields
+
 
 $query = '
 SELECT C.customerID, C.emailAddress, C.firstName, C.lastName, A.line1, A.city, A.state, A.zipCode, A.phone FROM customers C
